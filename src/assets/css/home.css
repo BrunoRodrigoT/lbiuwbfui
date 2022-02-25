@@ -1,0 +1,142 @@
+/* body da home */
+#home-page {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+/* divs de titulo */
+#box-title {
+  padding-top: 20px;
+  color: #003838;
+}
+#title-1 {
+  font-size: 36px;
+}
+
+/* section */
+#div-section {
+  border: 1.5px solid rgba(83, 200, 164, 0.5);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* div dos dados de covid globais */
+#div-extern-global {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #003838;
+}
+#div-intern-left {
+  padding: 20px;
+  padding-right: 50px;
+  line-height: 10px;
+  border-right: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+#div-intern-right {
+  padding: 10px;
+  line-height: 5px;
+}
+.div-ajust {
+  padding: 10px;
+}
+.data-div-left {
+  font-weight: 500;
+}
+.p-div-left {
+  color: #53c8a4;
+  font-size: 11px;
+}
+.p-div-right {
+  color: #53c8a4;
+  font-size: 14px;
+}
+#small-date {
+  font-size: 10px;
+  padding-left: 25px;
+  font-weight: 500;
+}
+#span-date {
+  color: #53c8a4;
+}
+
+/* indo para a segunda etapa, os cards dos paises e seus dados */
+#div-content-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+#box-card {
+  max-width: 240px;
+  border: solid 1.5px #53c8a4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #003838;
+}
+#div-above {
+  line-height: 10px;
+}
+#div-below {
+  display: flex;
+  justify-content: space-between;
+  line-height: 5px;
+}
+.div-card-ajust {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.p-box-above {
+  color: #53c8a4;
+  font-size: 14px;
+}
+.p-box-below {
+  color: #53c8a4;
+  font-size: 11px;
+}
+.data-box-above {
+  font-weight: 500;
+  font-size: 14px;
+}
+.data-box-below {
+  font-weight: 500;
+  font-size: 14px;
+}
+#country {
+  padding: 5px;
+  font-weight: 700;
+  font-size: 16px;
+}
+#graph{
+  padding-top: 25px;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  #home-page{
+    width: 100%;
+  }
+
+  #div-extern-global{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+  }
+  #div-intern-left{
+    margin: auto;
+    border-right: none;
+  }
+  #div-intern-right{
+    margin: auto;
+  }
+}
