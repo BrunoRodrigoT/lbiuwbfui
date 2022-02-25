@@ -1,8 +1,8 @@
-#TASCOM - COVID Summary
+# TASCOM - COVID Summary
 
 >Status: Developing ⚠️
 
-##This is a web application that consumes data from the COVID-19 API, produced to transmit the reports about the pandemic viral growth.
+### This is a web application that consumes data from the COVID-19 API, produced to transmit the reports about the pandemic viral growth.
 
 ![alt text](https://github.com/BrunoRodrigoT/tascom_covid_summary/blob/master/src/assets/img/1645809624909.png)
 
