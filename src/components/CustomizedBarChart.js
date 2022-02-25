@@ -24,7 +24,7 @@ export default function CustomizedBarChart({
         radius={[10, 10, 0, 0]}
         fill={color}
         label={{
-          fontSize: "1rem",
+          fontSize: "8px",
           fill: "#53C8A4",
         }}
       />
@@ -42,7 +42,7 @@ export default function CustomizedBarChart({
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data} margin={margin}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis tick={{fontSize: '0.8rem', fill: '#003838'}} dataKey={config?.Xkey} />
+          <XAxis tick={{fontSize: '11px', fill: '#003838'}} dataKey={config?.Xkey} />
           <YAxis tick={{fontSize: '11px'}} domain={[0, 'deathNumbers']} />
           <Tooltip />
           {bars}

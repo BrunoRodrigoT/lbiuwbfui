@@ -10,7 +10,7 @@ export default function Home() {
   const [globalData, setGlobalData] = useState();
   const [countries, setCountries] = useState();
   const [barChatData, setBarChartData] = useState([]);
-  const sectedCountries = [24, 185, 163, 36, 143, 85, 35, 52];
+  const sectedCountries = [24, 185, 163, 90, 143, 85, 31, 83];
 
   useEffect(() => {
     async function executeRequest() {
